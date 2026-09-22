@@ -21,3 +21,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintVertical_weight="1" />
+
+    <!-- 2. the white area：Responsive Layout 1 (权重 1) -->
+    <TextView
+        android:id="@+id/tvResponsive"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:text="Responsive Layout 1"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@+id/tvLab1"
+        app:layout_constraintBottom_toTopOf="@+id/colorRow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_weight="1" />
+
